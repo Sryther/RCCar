@@ -2,8 +2,16 @@
 
 ### Présentation du projet
 
-Initiateur du projet : Cyril Linxe
-Membre du projet (programmation) : Paul Rey ([Sryther](https://github.com/Sryther)).
+Initiateur du projet :
+
+* Cyril Linxe
+
+Membre du projet (programmation) :
+
+* Paul Rey ([Sryther](https://github.com/Sryther))
+* Thomas Issandou
+* Gabriel Cupillard
+* Aurélien Gaston
 
 But principal du projet : créer un programme afin d'automatiser une voiture de type radiocommandée dans le but de tracer les lignes de touches, de but et la ligne médiane d'un terrain de football.
 
@@ -19,4 +27,4 @@ Un module GPS est aussi utilisé.
 
 Liste des librairies utilisées dans ce projet :
 
-* [NMEA](http://www.maartenlamers.com/nmea/)
+* [NMEA](http://www.maartenlamers.com/nmea/) (Library for easy decoding of GPS data on the Wiring i/o board)
