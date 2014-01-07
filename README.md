@@ -9,9 +9,11 @@ Initiateur du projet :
 Membre du projet (programmation) :
 
 * Paul Rey ([Sryther](https://github.com/Sryther))
-* Thomas Issandou
-* Gabriel Cupillard
-* Aurélien Gaston
+* Thomas Issandou ([Suuushy](https://github.com/Suuushy))
+* Gabriel Cupillard ([Fantomatic](https://github.com/Fantomatic))
+* Aurélien Gaston ([Nox_404](https://github.com/Nox-404))
+* Noël Martins ([#](#))
+* Cyril Bakour  ([Sadistyk](https://github.com/Sadistyk))
 
 But principal du projet : créer un programme afin d'automatiser une voiture de type radiocommandée dans le but de tracer les lignes de touches, de but et la ligne médiane d'un terrain de football.
 
@@ -28,3 +30,14 @@ Un module GPS est aussi utilisé.
 Liste des librairies utilisées dans ce projet :
 
 * [NMEA](http://www.maartenlamers.com/nmea/) (Library for easy decoding of GPS data on the Wiring i/o board)
+
+### RTFM
+
+* [Start (FR)](http://fr.openclassrooms.com/sciences/cours/arduino-pour-bien-commencer-en-electronique-et-en-programmation/)
+* [All References](http://arduino.cc/en/Reference/HomePage)
+	* [Constants](http://arduino.cc/en/Reference/Constants)
+* [Template GPS](http://pastebin.com/dsJUixzS)
+
+### More
+
+[Forum Arduino](http://forum.arduino.cc/)
