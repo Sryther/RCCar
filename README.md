@@ -36,6 +36,7 @@ Liste des librairies utilisées dans ce projet :
 * [Start (FR)](http://fr.openclassrooms.com/sciences/cours/arduino-pour-bien-commencer-en-electronique-et-en-programmation/)
 * [All References](http://arduino.cc/en/Reference/HomePage)
 	* [Constants](http://arduino.cc/en/Reference/Constants)
+* [Template GPS](http://pastebin.com/dsJUixzS)
 
 ### More
 
