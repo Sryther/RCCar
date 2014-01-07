@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_How20HeIEeOTNcQEMHXmnQ" name="model">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_fgxNwHeIEeOTNcQEMHXmnQ" name="Activity1"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_6z1hEHeuEeON8fuSMv1zkQ" name="GPS">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="__gk9AHeuEeON8fuSMv1zkQ" name="gprmc_status"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_CwE-4HevEeON8fuSMv1zkQ" name="gprmc_utc"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_G-vXsHevEeON8fuSMv1zkQ" name="gprmc_latitude"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_KbhnoHevEeON8fuSMv1zkQ" name="gprmc_longitude"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_LiX68HevEeON8fuSMv1zkQ" name="gprmc_speed"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_MipFIHevEeON8fuSMv1zkQ" name="gprmc_course"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Wt0fsHevEeON8fuSMv1zkQ" name="Arduino">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_YiQRwHevEeON8fuSMv1zkQ" name="pinGPS" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_b4l7cHevEeON8fuSMv1zkQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_b4oXsHevEeON8fuSMv1zkQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_b4qz8HevEeON8fuSMv1zkQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_dRXsQHevEeON8fuSMv1zkQ" name="pinPeinture" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fsUEsHevEeON8fuSMv1zkQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fsXIAHevEeON8fuSMv1zkQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_fsZkQHevEeON8fuSMv1zkQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_hxRmEHevEeON8fuSMv1zkQ" name="pinMoteur" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jVZEMHevEeON8fuSMv1zkQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jVa5YHevEeON8fuSMv1zkQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_jVd8sHevEeON8fuSMv1zkQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_-l2ksHevEeON8fuSMv1zkQ" name="Voiture">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Cj4ggHewEeON8fuSMv1zkQ" name="Vitesse" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HRcb0HewEeON8fuSMv1zkQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HReRAHewEeON8fuSMv1zkQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_HRh7YHewEeON8fuSMv1zkQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Hl5o4HewEeON8fuSMv1zkQ" name="AnglesVoiture" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZxWFoHewEeON8fuSMv1zkQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZxYh4HewEeON8fuSMv1zkQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_ZxblMHewEeON8fuSMv1zkQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Vz9tQHe0EeON8fuSMv1zkQ" name="AnglesRoues" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WIADkHe0EeON8fuSMv1zkQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WIB4wHe0EeON8fuSMv1zkQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_WIEVAHe0EeON8fuSMv1zkQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+  </packagedElement>
+</uml:Model>
