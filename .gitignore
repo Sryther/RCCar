@@ -1,0 +1,14 @@
+# xcode folders
+DerivedData
+*.xcworkspace
+*.xcodeproj
+
+# mac files
+.DS_Store
+._*
+
+# windows files
+Thumbs.db
+
+# arduino build
+
