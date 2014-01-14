@@ -12,7 +12,7 @@ Membre du projet (programmation) :
 * Thomas Issandou ([Suuushy](https://github.com/Suuushy))
 * Gabriel Cupillard ([Fantomatic](https://github.com/Fantomatic))
 * Aurélien Gaston ([Nox_404](https://github.com/Nox-404))
-* Noël Martins ([#](#))
+* Noël Martins ([Sp4rda](https://github.com/Sp4rda))
 * Cyril Bakour  ([Sadistyk](https://github.com/Sadistyk))
 
 But principal du projet : créer un programme afin d'automatiser une voiture de type radiocommandée dans le but de tracer les lignes de touches, de but et la ligne médiane d'un terrain de football.
